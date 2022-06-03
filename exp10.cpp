@@ -13,8 +13,6 @@ Yêu cầu kiểm tra dữ liệu nhập vào phải là các số nguyên dươ
 using namespace std;
 
 void set_input(int &x, int &y) {
-    //int arr[2];
-    //int x, y;
     int i = 0;
     while (i == 0) {
         cout << "x = \t";
@@ -29,22 +27,7 @@ void set_input(int &x, int &y) {
             cout << "x > 0 and y > 0. Again\n";
         }
     }
-    // arr[0] = x;
-    // arr[1] = y;
-    // return arr[2];
 }
-
-// int find_max_divisor(int z) {
-//     int max = 0;
-//     int list_divisor[z];
-//     for (int i = 2; i <= z; i++) {
-//         if (z % i == 0) {
-//             max = i;
-//         }
-//     }
-//     cout << max << "\n";
-//     return max;
-// }
 
 void find_max_divisor_common(int x, int y) {
     int max = 0;
