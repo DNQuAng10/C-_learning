@@ -110,7 +110,7 @@ void find_min_multiple_common(int x, int y) {
     }
 }
 
-void find_max_divisor_and_min_multiple(int x, int y) {
+void normal_find_max_divisor_and_min_multiple(int x, int y) {
     find_max_divisor_common(x, y);
     find_min_multiple_common(x, y);
 }
@@ -124,5 +124,5 @@ int main() {
     // y = arr[1];
 
     //cout << "what" << x << y;
-    find_max_divisor_and_min_multiple(x, y);
+    normal_find_max_divisor_and_min_multiple(x, y);
 }
