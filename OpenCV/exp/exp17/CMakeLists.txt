@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(HoughLineTransform)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(exp17 main.cpp)
+target_link_libraries(exp17 ${OpenCV_LIBS})

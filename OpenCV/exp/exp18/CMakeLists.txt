@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(HoughCirclesTransform)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(exp18 main.cpp)
+target_link_libraries(exp18 ${OpenCV_LIBS})
