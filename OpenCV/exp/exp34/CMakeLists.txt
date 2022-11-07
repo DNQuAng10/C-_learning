@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( DeBlur)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(exp34 main_1.cpp)
+target_link_libraries(exp34 ${OpenCV_LIBS})

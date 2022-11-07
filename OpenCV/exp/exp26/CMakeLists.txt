@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(BackProject)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(exp26 main.cpp)
+target_link_libraries(exp26 ${OpenCV_LIBS})

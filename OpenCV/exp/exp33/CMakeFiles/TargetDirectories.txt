@@ -1,0 +1,3 @@
+/home/dnq/Working/learn_C++/OpenCV/exp/exp33/CMakeFiles/rebuild_cache.dir
+/home/dnq/Working/learn_C++/OpenCV/exp/exp33/CMakeFiles/edit_cache.dir
+/home/dnq/Working/learn_C++/OpenCV/exp/exp33/CMakeFiles/exp33.dir

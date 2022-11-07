@@ -35,6 +35,11 @@ static void circle_detection(int, void*) {
         circle(dst, center, radius, Scalar(128, 0, 166), 3, LINE_AA);
     }
     imshow("detected circles: ", dst);
+    // char c = (char)waitKey(0);
+    // if (c == 114) {
+    //     destroyAllWindows();
+    //     imshow("detected circles: ", dst);
+    // }
 }
 
 int main(int argc, char** argv) {

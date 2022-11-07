@@ -1,0 +1,3 @@
+/home/dnq/Working/learn_C++/OpenCV/exp/face_recognition/CMakeFiles/rebuild_cache.dir
+/home/dnq/Working/learn_C++/OpenCV/exp/face_recognition/CMakeFiles/edit_cache.dir
+/home/dnq/Working/learn_C++/OpenCV/exp/face_recognition/CMakeFiles/run.dir

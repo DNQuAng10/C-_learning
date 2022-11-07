@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(PointPolygon)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(exp32 main.cpp)
+target_link_libraries(exp32 ${OpenCV_LIBS})
